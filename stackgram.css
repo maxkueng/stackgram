@@ -1,0 +1,116 @@
+.stackgram-container {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	-webkit-align-items: flex-end;
+	align-items: flex-end;
+}
+
+.stackgram-component {
+	-webkit-flex: auto;
+	flex: auto;
+	margin-left: 9px;
+	margin-bottom: 9px;
+	border-radius: 4px;
+}
+
+.stackgram-component-group:first-child,
+.stackgram-component:first-child {
+	margin-left: 0;
+}
+
+.stackgram-component-group .stackgram-component .stackgram-component-list,
+.stackgram-component .stackgram-component-list {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex: 1 0 auto;
+	flex: 1 0 auto;
+	padding-right: 0;
+	padding-top: 0;
+	-webkit-align-items: flex-end;
+	align-items: flex-end;
+}
+
+.stackgram-component-group {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row-reverse;
+	-webkit-flex-direction: row-reverse;
+	/* -webkit-align-items: flex-end; */
+	/* align-items: flex-end; */
+	-webkit-justify-content-items: flex-end;
+	justify-content-items: flex-end;
+	-webkit-flex: 1 0 auto;
+	flex: 1 0 auto;
+	margin-left: 9px;
+	margin-bottom: 9px;
+	background-color: rgba(255, 85, 85, 0.2);
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.stackgram-component-group .stackgram-component-list {
+	-webkit-flex: 1 0 auto;
+	flex: 1 0 auto;
+	padding-right: 9px;
+	padding-top: 9px;
+}
+
+.stackgram-component-group .stackgram-component-group-title {
+	-webkit-flex: 0 1 auto;
+	flex: 0 1 auto;
+	align-self: stretch;
+	background-color: rgba(255, 85, 85, 0.5);
+	font-weight: bold;
+	vertical-align: center;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	margin-right: 9px;
+	position: relative;
+	width: 27px;
+}
+
+.stackgram-component-group .stackgram-component-group-title div {
+	display: table;
+	height: 100%;
+	text-align: center;
+}
+
+.stackgram-component-group .stackgram-component-group-title div span {
+	display: table-cell;
+	text-align: left;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.stackgram-component-group .stackgram-component-group-title div span strong {
+	margin-left: -35%;
+	display: inline-block;
+	white-space:nowrap;
+	height: 27px;
+	line-height: 27px;
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.stackgram-component-info {
+	background-color: rgba(255, 212, 42, 0.8);
+	border-radius: 4px;
+	padding: 9px;
+}
+
+.stackgram-component-info-title {
+	text-align: center;
+	font-weight: bold;
+}
+
+.stackgram-component-info-description {
+	margin-top: 9px;
+	text-align: center;
+}
+
+.stackgram-size-1 { height: 18px; }
+.stackgram-size-2 { height: 36px; }
+.stackgram-size-3 { height: 54px; }

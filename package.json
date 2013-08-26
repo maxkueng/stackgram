@@ -1,0 +1,17 @@
+{
+  "name": "stackgram",
+  "version": "0.0.1",
+  "description": "Create HTML stack diagrams with JavaScript",
+  "keywords" : [ "diagram", "graph" ],
+  "repository": "git://github.com/maxkueng/stackgram.git",
+  "author": "Max Kueng <me@maxkueng.com> (http://maxkueng.com/)",
+  "dependencies": {
+    "color": "~0.4.4"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/maxkueng/stackgram/raw/master/LICENSE"
+    }
+  ]
+}
